@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class CustomerController {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/page1/index/vitor")
+    @RequestMapping(method = RequestMethod.GET, value = "/getDetails")
     protected String getDetail(Model model) {
 
         Customer customer = new Customer();
